@@ -1,0 +1,2 @@
+insert into usuario_cliente(id_usuario,username,password,role) values(1,'diego','$2a$12$ystDtivtGW8tOuCIJDzRsuufHOwpvkMSRRDV88Eam62bsqACzwbR6','ADMIN');
+insert into cliente(id_cliente,nombre,celular,usuario_cliente_id_usuario) values(1,'diego','999999999',1);
